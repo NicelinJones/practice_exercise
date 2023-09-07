@@ -2,6 +2,9 @@
 * {
     font-family: 'Pacifico', cursive;
 }
+body{
+    flex-wrap: wrap;
+}
 
 h1{
     background-color: black;
