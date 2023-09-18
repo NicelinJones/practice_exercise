@@ -1,0 +1,57 @@
+body {
+    background-image:repeating-radial-gradient(green, #b6a2a2 30%, #ccc 30%);
+    align-items: center; ;
+    background-size:auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+#container{
+    margin-left: 400px;
+    max-height: 50%;
+    max-width: 50%;
+    background-color:blue;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:green;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#decrement-btn{
+
+    background: yellow;
+    color: black;
+}
+#digitaltimer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

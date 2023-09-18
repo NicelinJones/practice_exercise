@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting The Peoples Enter</title>
+    <link href="count.css" rel="stylesheet"/> 
+</head>
+<body>
+    <div id="container">
+    <h4>Employees Entered</h4>
+    <p id="count_people">0</p>
+<button  onclick="increment()">INCREMENT</button> 
+<div id="digitaltimer">
+    <p id="emp_inorout_timehour" >0</p>
+    <p>:</p>
+<p  id="emp_inorout_timeminutes">0</p>
+</div>
+<button onclick="save()">SAVE</button>
+
+<h4>Save Employees Entry with time</h4>
+
+<p id="save_peoplesentry"></p>
+<button onclick="decrement()">DECREMENT</button>
+<h4>Employees Out</h4>
+<P id="peoples_out">0</P>
+<button onclick="date()"> DATE</button>
+<h4>date</h4>
+<p id="today_date">0</p>
+<button onclick="currenttime()"> DATE & TIME</button>
+<h4>time</h4>
+<p id="nowtime">0</p>
+</div>
+   <script src="counting.js"></script>
+    
+</body>
+</html>
