@@ -6,6 +6,7 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: x-large;
+    flex-wrap: nowrap;
 }
 #container{
     margin-left: 400px;
